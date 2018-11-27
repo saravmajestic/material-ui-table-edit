@@ -7,8 +7,6 @@ const times = require('lodash.times')
 const {IconButton, Toggle, TextField, RaisedButton, DatePicker} = mui
 const PropTypes = require('prop-types')
 const createReactClass = require('create-react-class')
-const injectTapEventPlugin = require('react-tap-event-plugin')
-injectTapEventPlugin()
 
 module.exports = createReactClass({
   getDefaultProps: () => {
